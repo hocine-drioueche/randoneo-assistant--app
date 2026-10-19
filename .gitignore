@@ -1,0 +1,8 @@
+# Ce qui ne part JAMAIS dans le dépôt GitHub de l'application.
+# À poser avant le premier « git add . » : une clé poussée une fois est brûlée.
+.env
+.streamlit/secrets.toml
+
+__pycache__/
+*.pyc
+.venv/
